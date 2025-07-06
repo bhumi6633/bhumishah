@@ -5,6 +5,7 @@ import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 
 
+
 export default function Home(): JSX.Element {
   return (
     <>
@@ -17,7 +18,6 @@ export default function Home(): JSX.Element {
           <a href="#about" className="hover:text-white transition">ABOUT</a>
           <a href="#projects" className="hover:text-white hover:underline underline-offset-4 transition">PROJECTS</a>
           <a href="#experience" className="hover:text-white hover:underline underline-offset-4 transition">EXPERIENCE</a>
-          <a href="#contact" className="hover:text-white hover:underline underline-offset-4 transition">CONTACT</a>
         </nav>
 
         <h1 id="home" className="text-6xl md:text-8xl font-bold tracking-widest uppercase font-[PlayfairDisplay] text-white mt-4">
@@ -55,9 +55,9 @@ export default function Home(): JSX.Element {
           <div className="text-gray-400 leading-relaxed">
             <p className="mb-2">When I’m not deep in code, you’ll catch me:</p>
             <ul className="list-disc list-inside ml-2 space-y-1">
-              <li>🎧 Vibing to Spotify playlists</li>
-              <li>📺 Binge-watching <em>Suits</em> (Harvey’s mindset hits different)</li>
-              <li>📉 Analyzing stock graphs with $0 invested — <em>for now...</em></li>
+              <li>Vibing to Spotify playlists</li>
+              <li>Binge-watching <em>Suits</em> (Harvey’s mindset hits different)</li>
+              <li>Analyzing stock graphs with $0 invested — <em>for now...</em></li>
             </ul>
           </div>
         </div>
@@ -68,6 +68,7 @@ export default function Home(): JSX.Element {
 
       {/* EXPERIENCE SECTION */}
       <ExperienceSection/>
+
     </>
   );
 }
