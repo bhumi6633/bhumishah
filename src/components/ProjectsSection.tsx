@@ -29,9 +29,9 @@ export default function ProjectsSection() {
           title="EquityPulse"
           image="/images/EquityPulse.png"
           github="https://github.com/bhumi6633/EquityPulse"
-          live="https://equitypulse.onrender.com"
+          live="https://www.youtube.com/watch?v=fhOKYrtcuxo"
           summary="A live-stock tracker inspired by the Bloomberg Terminal."
-          tech={["Flask", "Tailwind CSS", "yFinance", "Chart.js", "HTML", "JavaScript"]}
+          tech={["Flask", "Tailwind CSS", "yFinance API", "Chart.js", "HTML", "JavaScript"]}
           details={[
             "Displays real-time stock prices and percentage change",
             "Plots historical price data using Chart.js",

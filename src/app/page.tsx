@@ -2,6 +2,8 @@
 
 import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import ProjectsSection from "@/components/ProjectsSection";
+import ExperienceSection from "@/components/ExperienceSection";
+
 
 export default function Home(): JSX.Element {
   return (
@@ -63,6 +65,9 @@ export default function Home(): JSX.Element {
 
       {/* PROJECTS SECTION */}
       <ProjectsSection />
+
+      {/* EXPERIENCE SECTION */}
+      <ExperienceSection/>
     </>
   );
 }
