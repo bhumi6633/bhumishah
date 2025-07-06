@@ -44,7 +44,7 @@ export default function Home(): JSX.Element {
       <section id="about" className="min-h-screen w-full bg-[#1c1c1e] px-6 py-20 flex flex-col items-center text-white">
         <h2 className="text-4xl md:text-7xl font-bold mb-12 text-[#ffda61] uppercase tracking-wider text-center">About Me</h2>
         <div className="max-w-4xl w-full text-left space-y-6">
-          <p className="text-xl font-semibold text-white">Hi, I'm Bhumi — a Computer Engineering student at the University of Waterloo.</p>
+          <p className="text-xl font-semibold text-white">Hi, I&apos;m Bhumi — a Computer Engineering student at the University of Waterloo.</p>
           <p className="text-gray-300 leading-relaxed">I’m passionate about using software to design tools that solve real-world problems. My curiosity lies at the intersection of:</p>
           <ul className="list-disc list-inside text-gray-300 space-y-2 pl-2">
             <li><strong>Engineering</strong> — building resilient systems</li>
