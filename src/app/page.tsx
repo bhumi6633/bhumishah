@@ -1,5 +1,6 @@
 'use client';
 
+import * as React from "react";
 import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
@@ -45,18 +46,18 @@ export default function Home(): JSX.Element {
         <h2 className="text-4xl md:text-7xl font-bold mb-12 text-[#ffda61] uppercase tracking-wider text-center">About Me</h2>
         <div className="max-w-4xl w-full text-left space-y-6">
           <p className="text-xl font-semibold text-white">Hi, I&apos;m Bhumi — a Computer Engineering student at the University of Waterloo.</p>
-          <p className="text-gray-300 leading-relaxed">I’m passionate about using software to design tools that solve real-world problems. My curiosity lies at the intersection of:</p>
+          <p className="text-gray-300 leading-relaxed">I&apos;m passionate about using software to design tools that solve real-world problems. My curiosity lies at the intersection of:</p>
           <ul className="list-disc list-inside text-gray-300 space-y-2 pl-2">
             <li><strong>Engineering</strong> — building resilient systems</li>
             <li><strong>Finance</strong> — modeling markets & strategic analysis</li>
             <li><strong>Problem-solving</strong> — scaling solutions with clarity and purpose</li>
           </ul>
-          <p className="text-gray-300 leading-relaxed">Whether it’s coding backend systems, debugging data pipelines, or exploring quant models, I’m always chasing clean logic and smart outcomes.</p>
+          <p className="text-gray-300 leading-relaxed">Whether it&apos;s coding backend systems, debugging data pipelines, or exploring quant models, I&apos;m always chasing clean logic and smart outcomes.</p>
           <div className="text-gray-400 leading-relaxed">
-            <p className="mb-2">When I’m not deep in code, you’ll catch me:</p>
+            <p className="mb-2">When I&apos;m not deep in code, you&apos;ll catch me:</p>
             <ul className="list-disc list-inside ml-2 space-y-1">
               <li>Vibing to Spotify playlists</li>
-              <li>Binge-watching <em>Suits</em> (Harvey’s mindset hits different)</li>
+              <li>Binge-watching <em>Suits</em> (Harvey&apos;s mindset hits different)</li>
               <li>Analyzing stock graphs with $0 invested — <em>for now...</em></li>
             </ul>
           </div>
