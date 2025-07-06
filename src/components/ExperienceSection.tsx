@@ -26,7 +26,14 @@ export default function ExperienceSection() {
           </div>
           <div>
             <h4 className="text-xl md:text-2xl font-bold text-[#ffda61]">
+                <a
+                    href="https://www.prgx.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline hover:text-white transition"
+            >
               PRGX Global Inc. - Data Engineering Intern
+            </a>
             </h4>
             <p className="text-base text-gray-300 mb-2 italic">
               Apr 2025 – Aug 2025 | Mississauga, Ontario, Canada
@@ -58,7 +65,14 @@ export default function ExperienceSection() {
           </div>
           <div>
             <h4 className="text-xl md:text-2xl font-bold text-[#ffda61]">
+                <a
+                    href="https://uwbiotron.netlify.app/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline hover:text-white transition"
+            >
               UW Biomechatronics Design Team - EMG Software Developer
+            </a>
             </h4>
             <p className="text-base text-gray-300 mb-2 italic">
               May 2025 – Present | Waterloo, Ontario, Canada
@@ -91,7 +105,14 @@ export default function ExperienceSection() {
           </div>
           <div>
             <h4 className="text-xl md:text-2xl font-bold text-[#ffda61]">
+                <a
+                    href="https://electriummobility.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline hover:text-white transition"
+            >
               Electrium Mobility - Web Developer
+            </a>
             </h4>
             <p className="text-base text-gray-300 mb-2 italic">
               December 2024 – April 2025 | Waterloo, Ontario, Canada
@@ -124,10 +145,17 @@ export default function ExperienceSection() {
           </div>
           <div>
             <h4 className="text-xl md:text-2xl font-bold text-[#ffda61]">
+                <a
+                    href="https://biz-insights.com/case-study-detail?title=Data-Management-and-Reporting-System"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="hover:underline hover:text-white transition"
+            >
               Biz-Insights IT Solutions LLP - Software Engineering Intern
+            </a>
             </h4>
             <p className="text-base text-gray-300 mb-2 italic">
-              May 2024 – August 2024 | Newark, California, United States(Remote)
+              May 2024 – August 2024 | Newark, California, United States (Remote)
             </p>
             <ul className="list-disc list-inside text-gray-300 space-y-1 text-xs md:text-sm">
               <li>Developed an automated HR Data Management System by scripting Excel download and tracking workflows from SharePoint</li>
