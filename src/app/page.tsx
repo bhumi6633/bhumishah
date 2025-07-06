@@ -7,7 +7,7 @@ import ExperienceSection from "@/components/ExperienceSection";
 
 
 
-export default function Home(): JSX.Element {
+const Home: React.FC = () => {
   return (
     <>
       {/* HERO SECTION */}
@@ -73,3 +73,4 @@ export default function Home(): JSX.Element {
     </>
   );
 }
+  export default Home;
