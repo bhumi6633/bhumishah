@@ -7,7 +7,6 @@ import ExperienceSection from "@/components/ExperienceSection";
 
 
 
-
 const Home: React.FC = () => {
   return (
     <>
@@ -15,7 +14,7 @@ const Home: React.FC = () => {
       <main className="relative min-h-screen bg-[#1c1c1e] text-white px-4 sm:px-6 md:px-8 py-12 overflow-hidden flex flex-col items-center justify-center text-center scroll-smooth">
         <div className="absolute left-[-25%] top-[-25%] w-[60vw] h-[60vw] bg-[#08040472] rounded-full blur-3xl opacity-20 pointer-events-none" />
 
-        <nav className="absolute top-6 left-0 right-0 flex justify-center gap-30 text-lg sm:text-xl font-mono text-[#ffda61] tracking-widest z-50">
+        <nav className="absolute top-6 left-0 right-0 flex justify-center gap-30 text-lg sm:text-2xl font-mono text-[#ffda61] tracking-widest z-50">
           <a href="#home" className="hover:text-white hover:underline underline-offset-4 transition">HOME</a>
           <a href="#about" className="hover:text-white transition">ABOUT</a>
           <a href="#projects" className="hover:text-white hover:underline underline-offset-4 transition">PROJECTS</a>
