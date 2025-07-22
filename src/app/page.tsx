@@ -1,15 +1,23 @@
 'use client';
 
 import * as React from "react";
+import Head from 'next/head';
 import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 
 
 
+
 const Home: React.FC = () => {
   return (
     <>
+      <Head>
+        <title>bhumishah.com</title>
+        <meta name="description" content="Portfolio of Bhumi Shah — Computer Engineering @ University of Waterloo. Passionate about systems, markets, and fast, resilient tech." />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="/favicon.ico" />
+      </Head>
       {/* HERO SECTION */}
       <main className="relative min-h-screen bg-[#1c1c1e] text-white px-4 sm:px-6 md:px-8 py-12 overflow-hidden flex flex-col items-center justify-center text-center scroll-smooth">
         <div className="absolute left-[-25%] top-[-25%] w-[60vw] h-[60vw] bg-[#08040472] rounded-full blur-3xl opacity-20 pointer-events-none" />
