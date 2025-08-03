@@ -16,7 +16,7 @@ const Home: React.FC = () => {
 
         <nav className="absolute top-6 left-0 right-0 flex justify-center gap-30 text-lg sm:text-xl font-mono text-[#ffda61] tracking-widest z-50">
           <a href="#home" className="hover:text-white hover:underline underline-offset-4 transition">HOME</a>
-          <a href="#about" className="hover:text-white transition">ABOUT</a>
+          <a href="#about" className="hover:text-white hover:underline underline-offset-4 transition">ABOUT</a>
           <a href="#projects" className="hover:text-white hover:underline underline-offset-4 transition">PROJECTS</a>
           <a href="#experience" className="hover:text-white hover:underline underline-offset-4 transition">EXPERIENCE</a>
         </nav>
