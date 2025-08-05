@@ -4,12 +4,19 @@ import * as React from "react";
 import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
+import Head from 'next/head';
+
 
 
 
 const Home: React.FC = () => {
   return (
     <>
+      <Head>
+        <title>Bhumi Shah</title>
+        <meta name="description" content="Computer Engineering student at the University of Waterloo" />
+      </Head>
+      
       {/* HERO SECTION */}
       <main className="relative min-h-screen bg-[#1c1c1e] text-white px-4 sm:px-6 md:px-8 py-12 overflow-hidden flex flex-col items-center justify-center text-center scroll-smooth">
         <div className="absolute left-[-25%] top-[-25%] w-[60vw] h-[60vw] bg-[#08040472] rounded-full blur-3xl opacity-20 pointer-events-none" />
@@ -45,12 +52,12 @@ const Home: React.FC = () => {
       <section id="about" className="min-h-screen w-full bg-[#1c1c1e] px-6 py-20 flex flex-col items-center text-white">
         <h2 className="text-4xl md:text-7xl font-bold mb-12 text-[#ffda61] uppercase tracking-wider text-center">About Me</h2>
         <div className="max-w-4xl w-full text-left space-y-6">
-          <p className="text-xl font-semibold text-white">Hi, I&apos;m Bhumi — a Computer Engineering student at the University of Waterloo.</p>
+          <p className="text-xl font-semibold text-white">Hi, I&apos;m Bhumi a Computer Engineering student at the University of Waterloo.</p>
           <p className="text-gray-300 leading-relaxed">I&apos;m passionate about using software to design tools that solve real-world problems. My curiosity lies at the intersection of:</p>
           <ul className="list-disc list-inside text-gray-300 space-y-2 pl-2">
-            <li><strong>Engineering</strong> — building resilient systems</li>
-            <li><strong>Finance</strong> — modeling markets & strategic analysis</li>
-            <li><strong>Problem-solving</strong> — scaling solutions with clarity and purpose</li>
+            <li><strong>Engineering</strong> : building resilient systems</li>
+            <li><strong>Finance</strong> : modeling markets & strategic analysis</li>
+            <li><strong>Problem-solving</strong> : scaling solutions with clarity and purpose</li>
           </ul>
           <p className="text-gray-300 leading-relaxed">Whether it&apos;s coding backend systems, debugging data pipelines, or exploring quant models, I&apos;m always chasing clean logic and smart outcomes.</p>
           <div className="text-gray-400 leading-relaxed">
@@ -58,7 +65,7 @@ const Home: React.FC = () => {
             <ul className="list-disc list-inside ml-2 space-y-1">
               <li>Vibing to Spotify playlists</li>
               <li>Binge-watching <em>Suits</em> (Harvey&apos;s mindset hits different)</li>
-              <li>Analyzing stock graphs with $0 invested — <em>for now...</em></li>
+              <li>Analyzing stock graphs with $0 invested <em>for now...</em></li>
             </ul>
           </div>
         </div>
