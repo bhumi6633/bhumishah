@@ -4,7 +4,11 @@ import * as React from "react";
 import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
-import Head from 'next/head';
+
+export const metadata = {
+  title: "Bhumi Shah",
+  description: "Computer Engineering student at the University of Waterloo",
+};
 
 
 
@@ -12,11 +16,8 @@ import Head from 'next/head';
 const Home: React.FC = () => {
   return (
     <>
-      <Head>
-        <title>Bhumi Shah</title>
-        <meta name="description" content="Computer Engineering student at the University of Waterloo" />
-      </Head>
-      
+
+
       {/* HERO SECTION */}
       <main className="relative min-h-screen bg-[#1c1c1e] text-white px-4 sm:px-6 md:px-8 py-12 overflow-hidden flex flex-col items-center justify-center text-center scroll-smooth">
         <div className="absolute left-[-25%] top-[-25%] w-[60vw] h-[60vw] bg-[#08040472] rounded-full blur-3xl opacity-20 pointer-events-none" />
