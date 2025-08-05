@@ -5,12 +5,6 @@ import { FaGithub, FaLinkedin, FaXTwitter, FaEnvelope } from "react-icons/fa6";
 import ProjectsSection from "@/components/ProjectsSection";
 import ExperienceSection from "@/components/ExperienceSection";
 
-export const metadata = {
-  title: "Bhumi Shah",
-  description: "Computer Engineering student at the University of Waterloo",
-};
-
-
 
 
 const Home: React.FC = () => {
