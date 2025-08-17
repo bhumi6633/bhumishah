@@ -29,15 +29,14 @@ export default function ProjectsSection() {
         <ProjectCard
           title="SparkPath"
           image="/images/SparkPath.png"
-          github="https://github.com/bhumi6633"
-          live="#"
-          summary="Description for SparkPath project."
-          tech={["Tech 1", "Tech 2", "Tech 3"]}
+          github="https://github.com/bhumi6633/SparkPath"
+          live="https://www.youtube.com/watch?v=6iyYuZ_SYlc"
+          summary="AI-Powered EV Rideshare for a Greener, Smarter Future"
+          tech={["Flask", "Leaflet.js", "MongoDB","React.js","Gemini API","OpenRouteService API"]}
           details={[
-            "Feature 1 description",
-            "Feature 2 description",
-            "Feature 3 description",
-            "Feature 4 description"
+            "Post a Ride with route, time, and details",
+            "Find a Ride using AI + route suggestion",
+            "Live CO₂ & trees saved stats"
           ]}
           imageClass="object-cover"
         />
@@ -45,15 +44,15 @@ export default function ProjectsSection() {
         <ProjectCard
           title="Mindful Harmony"
           image="/images/MindufulHarmony.png"
-          github="https://github.com/bhumi6633"
-          live="#"
-          summary="Description for Mindful Harmony project."
-          tech={["Tech 1", "Tech 2", "Tech 3"]}
+          github="https://github.com/bhumi6633/Mindful-Harmony"
+          live="https://www.youtube.com/watch?v=fK1wVEYR0nc"
+          summary="A mental health web app with AI journaling, mood-based music, activity recommendations, and optional friend support to help you feel better."
+          tech={["React.js", "Tailwind CSS", "Spotify API", "MongoDB", "Flask"]}
           details={[
-            "Feature 1 description",
-            "Feature 2 description",
-            "Feature 3 description",
-            "Feature 4 description"
+            "AI therapy journal with quick supportive replies",
+            "Generates Spotify playlists tailored to how you feel",
+            "Activity suggestions with timers and streaks",
+            "Anonymous venting platform with emoji replies"
           ]}
           imageClass="object-cover"
         />
@@ -61,15 +60,14 @@ export default function ProjectsSection() {
         <ProjectCard
           title="PennyWise"
           image="/images/PennyWise.png"
-          github="https://github.com/bhumi6633"
-          live="#"
-          summary="Description for PennyWise project."
-          tech={["Tech 1", "Tech 2", "Tech 3"]}
+          github="https://github.com/bhumi6633/PennyWise"
+          live="https://pennywise-2.onrender.com/"
+          summary="A simple personal finance app for tracking, budgeting, and building healthy money habits."
+          tech={["React.js", "Tailwind CSS", "Flask", "PostgreSQL(SQLAlchemy)","Gemini API"]}
           details={[
-            "Feature 1 description",
-            "Feature 2 description",
-            "Feature 3 description",
-            "Feature 4 description"
+            "Add and manage your daily spending with category, description, and date",
+            "Get smart tips and forecasts based on your unique spending habits",
+            "Set monthly goals and monitor how close you are to reaching or overspending them"
           ]}
           imageClass="object-cover"
         />
