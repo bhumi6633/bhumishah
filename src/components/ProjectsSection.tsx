@@ -107,11 +107,8 @@ export default function ProjectsSection() {
 
       {/* View More Section */}
       <div className="w-full max-w-4xl text-center">
-        <h3 className="text-2xl font-bold text-[#ffda61] mb-4 uppercase tracking-wider">
-          More Projects
-        </h3>
         <p className="text-gray-300 text-lg mb-8 leading-relaxed">
-          Explore more utilities, tools, experiments, and side projects in my GitHub repository.
+          Explore more projects on my GitHub!
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <a
