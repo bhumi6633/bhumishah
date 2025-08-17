@@ -123,7 +123,7 @@ export default function ProjectsSection() {
               href="mailto:b32shah@uwaterloo.ca"
               className="px-6 py-3 border border-[#ffda61] text-[#ffda61] font-semibold rounded-lg hover:bg-[#ffda61] hover:text-black transition duration-200 flex items-center justify-center gap-2"
             >
-              Let's Collaborate
+              Let&apos;s Collaborate
             </a>
           </div>
         </div>
