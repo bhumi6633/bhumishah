@@ -9,7 +9,7 @@ export default function ProjectsSection() {
         Projects
       </h2>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 w-full max-w-6xl">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl mb-12">
         <ProjectCard
           title="DermaCare"
           image="/images/dermacare.png"
@@ -22,6 +22,51 @@ export default function ProjectsSection() {
             "Highlights harmful chemicals based on medical research",
             "Generates safety score based on user skin profile",
             "Uses Gemini AI to suggest safer alternatives and skincare tips"
+          ]}
+        />
+
+        <ProjectCard
+          title="SparkPath"
+          image="/images/SparkPath.png"
+          github="https://github.com/bhumi6633"
+          live="#"
+          summary="Description for SparkPath project."
+          tech={["Tech 1", "Tech 2", "Tech 3"]}
+          details={[
+            "Feature 1 description",
+            "Feature 2 description",
+            "Feature 3 description",
+            "Feature 4 description"
+          ]}
+        />
+
+        <ProjectCard
+          title="Mindful Harmony"
+          image="/images/Minful_Harmonay.png"
+          github="https://github.com/bhumi6633"
+          live="#"
+          summary="Description for Mindful Harmony project."
+          tech={["Tech 1", "Tech 2", "Tech 3"]}
+          details={[
+            "Feature 1 description",
+            "Feature 2 description",
+            "Feature 3 description",
+            "Feature 4 description"
+          ]}
+        />
+
+        <ProjectCard
+          title="PennyWise"
+          image="/images/pennywise-logo.png"
+          github="https://github.com/bhumi6633"
+          live="#"
+          summary="Description for PennyWise project."
+          tech={["Tech 1", "Tech 2", "Tech 3"]}
+          details={[
+            "Feature 1 description",
+            "Feature 2 description",
+            "Feature 3 description",
+            "Feature 4 description"
           ]}
         />
 
@@ -54,18 +99,33 @@ export default function ProjectsSection() {
             "Shows average temperature and min-max thresholds"
           ]}
         />
+      </div>
 
-        <div className="w-full h-full flex flex-col justify-center items-center p-4 border border-[#2c2c2e] rounded-md text-center hover:bg-[#2a2a2a] transition">
-          <h3 className="text-white text-lg font-semibold mb-2 uppercase">More Projects</h3>
-          <p className="text-gray-400 text-sm mb-4 px-2">Explore more utilities, tools, and experiments in my GitHub.</p>
-          <a
-            href="https://github.com/bhumi6633?tab=repositories"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="px-3 py-1.5 bg-[#ffda61] text-black text-sm font-semibold rounded hover:bg-white transition"
-          >
-            View More →
-          </a>
+      {/* View More Section */}
+      <div className="w-full max-w-4xl text-center">
+        <div className="bg-[#2c2c2e] rounded-lg p-8 border border-[#3c3c3e] hover:bg-[#3a3a3a] transition duration-300">
+          <h3 className="text-2xl font-bold text-[#ffda61] mb-4 uppercase tracking-wider">
+            More Projects
+          </h3>
+          <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+            Explore more utilities, tools, experiments, and side projects in my GitHub repository.
+          </p>
+          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+            <a
+              href="https://github.com/bhumi6633?tab=repositories"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-6 py-3 bg-[#ffda61] text-black font-semibold rounded-lg hover:bg-white hover:scale-105 transition duration-200 flex items-center justify-center gap-2"
+            >
+              View All Projects →
+            </a>
+            <a
+              href="mailto:b32shah@uwaterloo.ca"
+              className="px-6 py-3 border border-[#ffda61] text-[#ffda61] font-semibold rounded-lg hover:bg-[#ffda61] hover:text-black transition duration-200 flex items-center justify-center gap-2"
+            >
+              Let's Collaborate
+            </a>
+          </div>
         </div>
       </div>
     </section>
