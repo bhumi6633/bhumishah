@@ -12,9 +12,10 @@ interface ProjectCardProps {
   summary: string;
   tech: string[];
   details: string[];
+  imageClass?: string;
 }
 
-export default function ProjectCard({ title, image, github, live, summary, tech, details }: ProjectCardProps) {
+export default function ProjectCard({ title, image, github, live, summary, tech, details, imageClass }: ProjectCardProps) {
   const [showDetails, setShowDetails] = useState(false);
 
   return (
@@ -25,7 +26,7 @@ export default function ProjectCard({ title, image, github, live, summary, tech,
           alt={`${title} screenshot`}
           width={800}
           height={450}
-          className="rounded-md object-cover w-full h-full"
+          className={`rounded-md object-cover w-full h-full ${imageClass || ''}`}
         />
       </div>
 

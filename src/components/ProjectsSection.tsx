@@ -53,6 +53,7 @@ export default function ProjectsSection() {
             "Feature 3 description",
             "Feature 4 description"
           ]}
+          imageClass="object-contain"
         />
 
         <ProjectCard
