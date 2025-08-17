@@ -19,13 +19,13 @@ export default function ProjectCard({ title, image, github, live, summary, tech,
 
   return (
     <div className="w-full h-full flex flex-col justify-between p-4 bg-transparent border border-[#2c2c2e] rounded-md text-sm">
-      <div className="relative w-full aspect-video mb-3 rounded-md overflow-hidden border border-[#333]">
+      <div className="relative w-full aspect-video mb-3 rounded-md overflow-hidden border border-[#333] bg-[#1a1a1a]">
         <Image
           src={image}
           alt={`${title} screenshot`}
           width={800}
-          height={102}
-          className="rounded-md object-contain"
+          height={450}
+          className="rounded-md object-cover w-full h-full"
         />
       </div>
 
