@@ -46,7 +46,7 @@ export default function ProjectsSection() {
           image="/images/MindufulHarmony.png"
           github="https://github.com/bhumi6633/Mindful-Harmony"
           live="https://www.youtube.com/watch?v=fK1wVEYR0nc"
-          summary="A mental health web app with AI journaling, mood-based music, activity recommendations, and optional friend support to help you feel better."
+          summary="A mental health web app to help you feel better."
           tech={["React.js", "Tailwind CSS", "Spotify API", "MongoDB", "Flask"]}
           details={[
             "AI therapy journal with quick supportive replies",
