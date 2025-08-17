@@ -49,12 +49,6 @@ export default function ProjectCard({ title, image, github, live, summary, tech,
 
       <p className="text-gray-300 text-sm leading-relaxed mb-3">{summary}</p>
 
-      <div className="flex flex-wrap gap-2 mb-3">
-        {tech.map((tag, index) => (
-          <span key={index} className="bg-[#333] text-[#ffda61] px-2 py-1 text-xs rounded-full border border-[#444] hover:border-[#ffda61] transition-colors duration-200">{tag}</span>
-        ))}
-      </div>
-
       <button
         onClick={() => setShowDetails(!showDetails)}
         className="mt-auto text-xs text-[#ffda61] hover:text-white underline underline-offset-2 transition-colors duration-200 font-medium"
@@ -63,11 +57,18 @@ export default function ProjectCard({ title, image, github, live, summary, tech,
       </button>
 
       {showDetails && (
-        <ul className="mt-3 list-disc pl-4 text-xs text-gray-400 space-y-1 border-t border-[#333] pt-3">
-          {details.map((point, idx) => (
-            <li key={idx} className="leading-relaxed">{point}</li>
-          ))}
-        </ul>
+        <div className="mt-3 space-y-3 border-t border-[#333] pt-3">
+          <div className="flex flex-wrap gap-2">
+            {tech.map((tag, index) => (
+              <span key={index} className="bg-[#333] text-[#ffda61] px-2 py-1 text-xs rounded-full border border-[#444] hover:border-[#ffda61] transition-colors duration-200">{tag}</span>
+            ))}
+          </div>
+          <ul className="list-disc pl-4 text-xs text-gray-400 space-y-1">
+            {details.map((point, idx) => (
+              <li key={idx} className="leading-relaxed">{point}</li>
+            ))}
+          </ul>
+        </div>
       )}
     </div>
   );
