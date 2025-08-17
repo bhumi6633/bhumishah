@@ -42,7 +42,7 @@ export default function ProjectsSection() {
 
         <ProjectCard
           title="Mindful Harmony"
-          image="/images/Minful_Harmonay.png"
+          image="/images/Minful_Harmony.png"
           github="https://github.com/bhumi6633"
           live="#"
           summary="Description for Mindful Harmony project."
