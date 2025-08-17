@@ -12,7 +12,7 @@ export default function ProjectsSection() {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl mb-12">
         <ProjectCard
           title="DermaCare"
-          image="/images/dermacare.png"
+          image="/images/DermaCare.jpg"
           github="https://github.com/bhumi6633/DermaCare"
           live="https://www.youtube.com/watch?v=j2ykAA4lfdY"
           summary="AI-powered skincare barcode scanner with real-time analysis."
