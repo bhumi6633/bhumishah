@@ -25,7 +25,7 @@ export default function ProjectCard({ title, image, github, live, summary, tech,
           alt={`${title} screenshot`}
           width={800}
           height={450}
-          className="rounded-md object-contain w-full h-full"
+          className="rounded-md object-cover w-full h-full"
         />
       </div>
 
