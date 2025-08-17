@@ -23,6 +23,7 @@ export default function ProjectsSection() {
             "Generates safety score based on user skin profile",
             "Uses Gemini AI to suggest safer alternatives and skincare tips"
           ]}
+          imageClass="object-cover"
         />
 
         <ProjectCard
@@ -38,11 +39,12 @@ export default function ProjectsSection() {
             "Feature 3 description",
             "Feature 4 description"
           ]}
+          imageClass="object-cover"
         />
 
         <ProjectCard
           title="Mindful Harmony"
-          image="/images/Minful_Harmony.png"
+          image="/images/MindufulHarmony.png"
           github="https://github.com/bhumi6633"
           live="#"
           summary="Description for Mindful Harmony project."
@@ -53,12 +55,12 @@ export default function ProjectsSection() {
             "Feature 3 description",
             "Feature 4 description"
           ]}
-          imageClass="object-contain"
+          imageClass="object-cover"
         />
 
         <ProjectCard
           title="PennyWise"
-          image="/images/pennywise-logo.png"
+          image="/images/PennyWise.png"
           github="https://github.com/bhumi6633"
           live="#"
           summary="Description for PennyWise project."
@@ -69,6 +71,7 @@ export default function ProjectsSection() {
             "Feature 3 description",
             "Feature 4 description"
           ]}
+          imageClass="object-cover"
         />
 
         <ProjectCard
@@ -84,6 +87,7 @@ export default function ProjectsSection() {
             "Includes dark mode toggle and company search",
             "Supports watchlist and recent searches",
           ]}
+          imageClass="object-cover"
         />
 
         <ProjectCard
@@ -99,6 +103,7 @@ export default function ProjectsSection() {
             "Displays Celsius, Fahrenheit, Kelvin",
             "Shows average temperature and min-max thresholds"
           ]}
+          imageClass="object-cover"
         />
       </div>
 
