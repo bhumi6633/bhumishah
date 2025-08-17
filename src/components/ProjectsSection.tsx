@@ -9,7 +9,7 @@ export default function ProjectsSection() {
         Projects
       </h2>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 w-full max-w-7xl mb-12">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-full max-w-7xl mb-16">
         <ProjectCard
           title="DermaCare"
           image="/images/DermaCare.jpg"
@@ -107,11 +107,11 @@ export default function ProjectsSection() {
 
       {/* View More Section */}
       <div className="w-full max-w-4xl text-center">
-        <div className="bg-[#2c2c2e] rounded-lg p-8 border border-[#3c3c3e] hover:bg-[#3a3a3a] transition duration-300">
+        <div className="bg-gradient-to-br from-[#2c2c2e] to-[#1a1a1a] rounded-xl p-8 border border-[#3c3c3e] hover:border-[#ffda61] hover:bg-gradient-to-br hover:from-[#3a3a3a] hover:to-[#2a2a2a] transition-all duration-300 shadow-lg hover:shadow-xl">
           <h3 className="text-2xl font-bold text-[#ffda61] mb-4 uppercase tracking-wider">
             More Projects
           </h3>
-          <p className="text-gray-300 text-lg mb-6 leading-relaxed">
+          <p className="text-gray-300 text-lg mb-8 leading-relaxed">
             Explore more utilities, tools, experiments, and side projects in my GitHub repository.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
@@ -119,13 +119,13 @@ export default function ProjectsSection() {
               href="https://github.com/bhumi6633?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-6 py-3 bg-[#ffda61] text-black font-semibold rounded-lg hover:bg-white hover:scale-105 transition duration-200 flex items-center justify-center gap-2"
+              className="px-8 py-4 bg-[#ffda61] text-black font-semibold rounded-lg hover:bg-white hover:scale-105 transition-all duration-200 flex items-center justify-center gap-2 shadow-lg hover:shadow-xl"
             >
               View All Projects →
             </a>
             <a
               href="mailto:b32shah@uwaterloo.ca"
-              className="px-6 py-3 border border-[#ffda61] text-[#ffda61] font-semibold rounded-lg hover:bg-[#ffda61] hover:text-black transition duration-200 flex items-center justify-center gap-2"
+              className="px-8 py-4 border-2 border-[#ffda61] text-[#ffda61] font-semibold rounded-lg hover:bg-[#ffda61] hover:text-black transition-all duration-200 flex items-center justify-center gap-2 hover:scale-105"
             >
               Let&apos;s Collaborate
             </a>
