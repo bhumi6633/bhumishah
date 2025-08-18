@@ -16,7 +16,7 @@ export default function ProjectsSection() {
           github="https://github.com/bhumi6633/DermaCare"
           live="https://www.youtube.com/watch?v=j2ykAA4lfdY"
           summary="AI-powered skincare barcode scanner with real-time analysis."
-          tech={["Flask", "Tailwind CSS", "QuaggaJS", "Gemini API", "INCI Beauty API"]}
+          tech={["Flask", "Tailwind CSS", "QuaggaJS", "INCI Beauty API"]}
           details={[
             "Scan barcodes to identify skincare product ingredients instantly",
             "Highlights harmful chemicals based on medical research",
@@ -32,7 +32,7 @@ export default function ProjectsSection() {
           github="https://github.com/bhumi6633/SparkPath"
           live="https://www.youtube.com/watch?v=6iyYuZ_SYlc"
           summary="AI-Powered EV Rideshare for a Greener, Smarter Future"
-          tech={["Flask", "Leaflet.js", "MongoDB","React.js","Gemini API","OpenRouteService API"]}
+          tech={["Flask", "Leaflet.js", "MongoDB","React.js","OpenRouteService API"]}
           details={[
             "Post a Ride with route, time, and details",
             "Find a Ride using AI + route suggestion",
@@ -63,7 +63,7 @@ export default function ProjectsSection() {
           github="https://github.com/bhumi6633/PennyWise"
           live="https://pennywise-2.onrender.com/"
           summary="A simple personal finance app for tracking, budgeting, and building healthy money habits."
-          tech={["React.js", "Tailwind CSS", "Flask", "PostgreSQL(SQLAlchemy)","Gemini API"]}
+          tech={["React.js", "Tailwind CSS", "Flask", "PostgreSQL(SQLAlchemy)"]}
           details={[
             "Add and manage your daily spending with category, description, and date",
             "Get smart tips and forecasts based on your unique spending habits",
