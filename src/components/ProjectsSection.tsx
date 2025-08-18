@@ -31,7 +31,7 @@ export default function ProjectsSection() {
           image="/images/SparkPath.png"
           github="https://github.com/bhumi6633/SparkPath"
           live="https://www.youtube.com/watch?v=6iyYuZ_SYlc"
-          summary="AI-Powered EV Rideshare for a Greener, Smarter Future"
+          summary="AI-Powered EV Rideshare for a Greener, Smarter Future."
           tech={["Flask", "Leaflet.js", "MongoDB","React.js","OpenRouteService API"]}
           details={[
             "Post a Ride with route, time, and details",
